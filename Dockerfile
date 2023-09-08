@@ -21,4 +21,4 @@ RUN unzip photogenic.zip && \
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 # Expose port 80 for HTTP traffic
-EXPOSE 80
+EXPOSE 80 22
