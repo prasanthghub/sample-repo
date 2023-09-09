@@ -2,7 +2,7 @@
 FROM centos:latest
 
 # Set the maintainer label
-LABEL maintainer="prasanth"
+LABEL maintainer="prasanthmeduri"
 
 # Install required packages (httpd, zip, unzip)
 RUN yum install -y httpd zip unzip && \
